@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 5px;
+}
+html::-webkit-scrollbar-thumb{
+    background: #aaa;
+    border-radius: 50px;
+}
+html::-webkit-scrollbar-track{
+    background: #eee;
+}
+
+body{
+    background: #fff;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5%;
+    background: #eeeff1;
+    z-index: 1000;
+}
+
+header .logo{
+    font-size: 22px;
+    font-weight: bold;
+    color: #474fa0;
+}
+
+header .navbar a{
+    font-size: 17px;
+    color: #202022;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+/* HOME SECTION */
+.home{
+    width: 100%;
+    background: #eeeff1;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 33rem;
+}
+
+.contact .text{
+    max-width: 50%;
+}
+
+.contact .text .title{
+    background: #474fa0;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.contact .text h2{
+    color: #111;
+    font-size: 50px;
+    padding-top: 1rem;
+    letter-spacing: 2px;
+}
+
+.contact .text h2 span{
+    color: #474fa0;
+}
+
+.contact .text p{
+    color: #202022;
+    font-size: 17px;
+    margin: 1rem 0;
+}
+
+/* BUTTON */
+.btn{
+    display: inline-block;
+    margin-top: 14px;
+    padding: 10px 15px;
+    border: 2px solid #474fa0;
+    border-radius: 8px;
+    color: #474fa0;
+    background: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn i{
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-left: 8px;
+    background: #474fa0;
+    color: #fff;
+}
+
+.btn:hover{
+    background: #474fa0;
+    color: #fff;
+}
+
+.btn:hover i{
+    background: #fff;
+    color: #474fa0;
+}
+
+/* IMAGE */
+.contact .image img{
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover;
+}
+
+/* SEARCH SECTION */
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.Search-car{
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    width: 70rem;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.search h1{
+    font-size: 28px;
+    color: #202022;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.search form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search .inputBox{
+    width: 13rem;
+    margin: 10px;
+}
+
+.search .inputBox span{
+    display: block;
+    margin-bottom: 5px;
+    color: #202022;
+}
+
+.search .inputBox input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
